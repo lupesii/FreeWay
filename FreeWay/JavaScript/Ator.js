@@ -16,7 +16,9 @@ function moveAtor(){
     }
     
     if (keyIsDown(DOWN_ARROW)){
-      yAtor += 5
+      if(movecolision()){
+        yAtor += 5
+      }
     }
   }
 
@@ -26,6 +28,9 @@ function verifyColision(){
     hit = collideRectCircle(xCars[i], yCars[i], wCars, hCars, xAtor, yAtor, 20);
     if(hit){
       colision();
+      if(pointpositive()){
+        pontos -= 1
+      }
     }
   }
 }
@@ -46,4 +51,12 @@ function matchPoint(){
     pontos += 1;
     colision();
   }
+}
+
+function pointpositive(){
+  return pontos > 0
+}
+
+function movecolision(){
+  return yAtor < 590;
 }
