@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(1200, 640);
+  trilha.loop();
 }
 
 function draw() {

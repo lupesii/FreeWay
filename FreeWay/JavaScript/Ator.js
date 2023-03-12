@@ -27,7 +27,8 @@ function verifyColision(){
   for(let i = 0; i < imgCarros.length; i++){
     hit = collideRectCircle(xCars[i], yCars[i], wCars, hCars, xAtor, yAtor, 20);
     if(hit){
-      colision();
+      voltainicio();
+      colidiu.play();
       if(pointpositive()){
         pontos -= 1
       }
@@ -35,7 +36,7 @@ function verifyColision(){
   }
 }
 
-function colision(){
+function voltainicio(){
   yAtor = 590;
 }
 
@@ -49,7 +50,8 @@ function placar(){
 function matchPoint(){
   if(yAtor < 40){
     pontos += 1;
-    colision();
+    sompontos.play();
+    voltainicio();
   }
 }
 
