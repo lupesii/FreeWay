@@ -21,6 +21,8 @@ Nesta versão foram mudadas algumas imagens, como por exemplo: No jogo original 
 
 * Quando a vaca conseguir atravessar a rodovia será computado 1 ponto ao jogados, porém se ela bater em um carro diminuirá 1 ponto do seu placar.
 
-
- 
 ![MinhaVersão](https://user-images.githubusercontent.com/51518452/224572337-f03b3336-ed52-4425-960b-ae6113138a43.png)
+
+### Teste o jogo
+
+Caso queira testar ou até mesmo jogar o jogo, aqui está o link, [FreeWay](https://editor.p5js.org/lupesii/full/XcGZq7DZs)
