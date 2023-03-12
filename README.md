@@ -21,6 +21,6 @@ Nesta versão foram mudadas algumas imagens, como por exemplo: No jogo original 
 
 * Quando a vaca conseguir atravessar a rodovia será computado 1 ponto ao jogados, porém se ela bater em um carro diminuirá 1 ponto do seu placar.
 
-![FreeWayMinhaVersão](https://imgur.com/a/9O03Rro)
+![Minhaversao](https://imgur.com/a/9O03Rro)
 
  
