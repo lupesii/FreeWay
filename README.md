@@ -17,10 +17,10 @@ Nesta versão foram mudadas algumas imagens, como por exemplo: No jogo original 
 
 * O conceito do jogo é atravessar a vaca para o outro lado da rua, enquanto desvia dos carros que estão passando pela rodovia.
 
-* Para movimentar a vaca utiliza-se as teclas ➡⬅⬆⬇.
+* Para movimentar a vaca utiliza-se as teclas ⬆⬇.
 
 * Quando a vaca conseguir atravessar a rodovia será computado 1 ponto ao jogados, porém se ela bater em um carro diminuirá 1 ponto do seu placar.
 
 
  
-![MinhaVersão](https://user-images.githubusercontent.com/51518452/224551679-f2627e38-a7ef-42e5-a1b5-c9f7db59104c.png)
+![MinhaVersão](https://user-images.githubusercontent.com/51518452/224572337-f03b3336-ed52-4425-960b-ae6113138a43.png)
