@@ -1,7 +1,10 @@
 //Localização Ator
-xAtor = 350;
-yAtor = 590;
-hit = false; //Váriavel de colisão false, já que não há colisão no inicio do jogo
+let xAtor = 350;
+let yAtor = 590;
+let hit = false; //Váriavel de colisão false, já que não há colisão no inicio do jogo
+
+//Placar
+let pontos = 0;
 
 function showAtor(){
     image(ator1, xAtor, yAtor, 40, 40);
@@ -20,7 +23,7 @@ function moveAtor(){
 function verifyColision(){
   //Criado uma repetição para analisar o x e y de todos os carros, caso um deles encoste em nosso ator, ele voltará a posição inicial
   for(let i = 0; i < imgCarros.length; i++){
-    hit = collideRectCircle(xCars[i], yCars[i], wCars, hCars, xAtor, yAtor, 40);
+    hit = collideRectCircle(xCars[i], yCars[i], wCars, hCars, xAtor, yAtor, 20);
     if(hit){
       colision();
     }
@@ -29,4 +32,18 @@ function verifyColision(){
 
 function colision(){
   yAtor = 590;
+}
+
+function placar(){
+  textAlign(CENTER);
+  textSize(30);
+  fill(color(255, 240, 60));
+  text(pontos, 400,39);
+}
+
+function matchPoint(){
+  if(yAtor < 40){
+    pontos += 1;
+    colision();
+  }
 }

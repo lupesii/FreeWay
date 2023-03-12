@@ -1,14 +1,19 @@
 function setup() {
-  createCanvas(1400, 640);
+  createCanvas(1200, 640);
 }
 
 function draw() {
   background(estrada);
+  //Ator
   showAtor();
   verifyColision();
-  showCarro();
   moveAtor();
+  //Carro
+  showCarro();
   moveCarro();
   loopCar();
+  //Placar
+  placar();
+  matchPoint();
 }
 

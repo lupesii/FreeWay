@@ -1,6 +1,6 @@
-let xCars = [1400, 1400, 1400, 1400, 1400, 1400, 1550, 1550, 1550]; //Lista de possiveis valores
+let xCars = [1200, 1200, 1200, 1200, 1200, 1200, 1450, 1450, 1450]; //Lista de possiveis valores
 let yCars = [60, 155, 245, 335, 425, 515, 245, 425, 155];
-let vCars = [4, 6, 8, 7, 5, 4.5, 7.6, 4.7, 5.5];
+let vCars = [5, 6, 8, 7, 5, 4.5, 7.6, 4.7, 5.5];
 let wCars = 70;
 let hCars = 60;
 
