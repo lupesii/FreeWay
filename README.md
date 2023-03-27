@@ -1,4 +1,6 @@
 # FreeWay
+![FreeWay](https://user-images.githubusercontent.com/51518452/228027402-4bdc4676-9dba-4d53-8ed1-f0411cd2a130.png)
+
 Recriação do jogo "FreeWay" lançado em 1981 para o Atari, o código inteiro está feito em JavaScript, HTML5 e CSS3.
 
 | :placard: Vitrine.Dev |     |
