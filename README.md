@@ -6,7 +6,7 @@ Recriação do jogo "FreeWay" lançado em 1981 para o Atari, o código inteiro e
 | -------------  | --- |
 | :sparkles: Nome        | **FreeWay**
 | :label: Tecnologias | JavaScript, HTML5, CSS3
-| :rocket: URL | [Jogo FreeWay](https://editor.p5js.org/lupesii/full/XcGZq7DZs)
+| :rocket: URL | [Jogo FreeWay](https://game-free-way.vercel.app/)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![FreeWay](https://media.alvanista.com/uploads/game/23/13711/medium_2_screenshot.png#vitrinedev)
@@ -27,4 +27,4 @@ Nesta versão foram mudadas algumas imagens, como por exemplo: No jogo original 
 
 ### Teste o jogo
 
-Caso queira testar ou até mesmo jogar o jogo, aqui está o link, [FreeWay](https://editor.p5js.org/lupesii/full/XcGZq7DZs)
+Caso queira testar ou até mesmo jogar o jogo, aqui está o link, [FreeWay](https://game-free-way.vercel.app/)
